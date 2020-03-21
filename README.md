@@ -1,1 +1,1 @@
-# javascript-challenge
+The purpose of this challenge was to read in data from an array of key valued pairs relating to ufo data. This data was then made into a table using html and javascript. Users can sort by date in level-1, and see their results populate a new table. Filtered selection was  added in level-2 to make sorting the data easier, filters included are date, city, state, country, and shape. 
