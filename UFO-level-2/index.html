@@ -33,11 +33,21 @@
               <div class="panel-heading">Filter Search</div>
               <div class="panel-body">
                 <form>
+                  <!--added options to filter search with dropdown click-->
+                  <select name="filter_option" id="filter_option">
+                    <option value="datetime" selected >Date</option>
+                    <option value="city">City</option>
+                    <option value="state">State</option>
+                    <option value="country">Country</option>
+                    <option value="shape">Shape</option>
+                  </select>
+                  <br>
+                  <!--Ending dropdown options-->
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="datetime">Enter a date that you wish to investigate.</label>
+                        <input class="form-control" id="changefilter" type="text" placeholder="1/11/2011">
                       </li>
                     </ul>
                   </div>
